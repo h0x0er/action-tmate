@@ -6,7 +6,7 @@ author: 'Max Schmitt'
 runs:
   using: 'node20'
   pre: 'lib/index.js'
-  main: 'lib/index.js'
+  main: 'lib/main.js'
   post: 'lib/index.js'
   post-if: '!cancelled()'
 inputs:
